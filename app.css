@@ -1,0 +1,108 @@
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f9f5ed;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.muro {
+    width: 30px;
+    height: 30px;
+    background-color: #252221;
+}
+
+.pasillo {
+    width: 30px;
+    height: 30px;
+}
+
+.inicio {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    background-color: #e2257d;
+}
+.fin {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    background-color: #e2257d;
+}
+
+.laberinto-cuerpo {
+    width: 300px;
+    height: 300px;
+    background-color: #c2d08b;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    position: relative;
+}
+
+.contenedor-main {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.btn-inicio {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    background-color: #91ad22;
+    color: white;
+    transition: all 300ms;
+}
+
+.btn-inicio:hover{
+    background-color: #c2d08b;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.btn-reset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    background-color: #e2257d;
+    color: white;
+    transition: all 300ms;
+}
+
+.btn-reset:hover {
+    background-color: #da92b3;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
